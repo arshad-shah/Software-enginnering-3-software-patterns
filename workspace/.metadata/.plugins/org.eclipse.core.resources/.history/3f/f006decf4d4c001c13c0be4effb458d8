@@ -1,0 +1,200 @@
+package com.example.service;
+
+import com.example.business.Inventory;
+import com.example.business.Item;
+import com.example.dao.InventoryDao;
+import com.example.exceptions.DaoException;
+
+public class InventoryService {
+	
+	//the Inventory dao class
+	InventoryDao inventorydao = new InventoryDao();
+
+	/**
+	 * This method is used to display the full inventory
+	 * @throws DaoException
+	 * @return the inventory object
+	 */
+	public Inventory DisplayInventory(){
+		Inventory inventory = new Inventory();
+		try {
+			inventory = inventorydao.getInventory();
+		} catch (DaoException e) {
+			e.printStackTrace();
+		}
+
+		return inventory;
+	}
+
+	/**
+	 * This method is used to add the item to the inventory
+	 * @throws DaoException
+	 * @param item The item object
+	 * @return true if the item is added successfully
+	 */
+	public boolean addItem(Item item){
+		boolean result = false;
+		try {
+			result = inventorydao.addItem(item);
+		} catch (DaoException e) {
+			e.printStackTrace();
+		}
+		return result;
+	}
+
+	/**
+	 * This method is used to delete the item in the inventory
+	 * using the item id
+	 * @throws DaoException
+	 * @param id The item id
+	 * @return true if the item is deleted successfully
+	 */
+	public boolean deleteItemUsingItemID(int id){
+		boolean result = false;
+		try {
+			result = inventorydao.deleteItem(id);
+		} catch (DaoException e) {
+			e.printStackTrace();
+		}
+		return result;
+	}
+
+	/**
+	 * This method is used to update the item name in the inventory
+	 * using the item id
+	 * @throws DaoException
+	 * @param item The item object
+	 * @return true if the item is updated successfully
+	 */
+	public boolean updateItemNameUsingItemID(Item item){
+		boolean result = false;
+		try {
+			result = inventorydao.updateItemName(item.getItemId(),item.getItemName());
+		} catch (DaoException e) {
+			e.printStackTrace();
+		}
+		return result;
+	}
+
+	/**
+	 * This method is used to update the itemDesc in the inventory
+	 * using the item id
+	 * @throws DaoException
+	 * @param item The item object
+	 * @return true if the item is updated successfully
+	 */
+	public boolean updateItemDescUsingItemID(Item item){
+		boolean result = false;
+		try {
+			result = inventorydao.updateItemDesc(item.getItemId(),item.getItemDesc());
+		} catch (DaoException e) {
+			e.printStackTrace();
+		}
+		return result;
+	}
+
+	/**
+	 * This method is used to update the item price in the inventory
+	 * using the item id
+	 * @throws DaoException
+	 * @param itemId
+	 * @param itemPrice
+	 * @param isUpdatePriceSuccessful
+	 */
+	public boolean updateItemPriceUsingItemID(int itemId, double itemPrice){
+		boolean result = false;
+		try {
+			result = inventorydao.updateItemPrice(itemId, itemPrice);
+		} catch (DaoException e) {
+			e.printStackTrace();
+		}
+		return result;
+	}
+
+	/**
+	 * This method is used to update the item quantity in the inventory
+	 * using the item id
+	 * @throws DaoException
+	 * @param itemId
+	 * @param itemQuantity
+	 * @param isUpdateQuantitySuccessful
+	 */
+	public boolean updateItemQuantityUsingItemID(int itemId, int itemQuantity){
+		boolean result = false;
+		try {
+			result = inventorydao.updateItemQuantity(itemId, itemQuantity);
+		} catch (DaoException e) {
+			e.printStackTrace();
+		}
+		return result;
+	}
+
+	/**
+	 * This method is used to update the item category in the inventory
+	 * using the item id
+	 * @throws DaoException
+	 * @param itemId
+	 * @param itemCategory
+	 * @param isUpdateCategorySuccessful
+	 * @return true if the item is updated successfully
+	 */
+	public boolean updateItemCategoryUsingItemID(int itemId, String itemCategory){
+		boolean result = false;
+		try {
+			result = inventorydao.updateItemCategory(itemId, itemCategory);
+		} catch (DaoException e) {
+			e.printStackTrace();
+		}
+		return result;
+	}
+
+	/**
+	 * This method is used to update the item supplier in the inventory
+	 * using the item id
+	 * @throws DaoException
+	 * @param itemId
+	 * @param itemSupplier
+	 * @param isUpdateSupplierSuccessful
+	 * @return true if the item is updated successfully
+	 */
+	public boolean updateItemSupplierUsingItemID(int itemId, String itemSupplier) {
+		boolean result = false;
+		try {
+			result = inventorydao.updateItemSupplier(itemId, itemSupplier);
+		} catch (DaoException e) {
+			e.printStackTrace();
+		}
+		return result;
+	}
+	
+	/**
+	 * return max id of item in inventory
+	 * @return max id of item in inventory
+	 */
+	public int getMaxItemId() {
+		int maxItemId = 0;
+		try {
+			maxItemId = inventorydao.getMaxItemId();
+		} catch (DaoException e) {
+			e.printStackTrace();
+		}
+		return maxItemId;
+	}
+
+	/**
+	 * This method is used to get the item in the inventory
+	 * using the item id
+	 * @throws DaoException
+	 * @param itemId
+	 * @return the item object
+	 */
+	public Item getItemUsingItemID(int itemId) {
+		Item item = new Item();
+		try {
+			item = inventorydao.getItem(itemId);
+		} catch (DaoException e) {
+			e.printStackTrace();
+		}
+		return item;
+	}
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="org.eclipse.jst.server.tomcat.core.launchConfigurationType">
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry containerPath=&quot;org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk&quot; path=&quot;2&quot; type=&quot;4&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry externalArchive=&quot;C:/Users/shaha/OneDrive - Technological University Dublin/computer science/DT228-3 year3 semester1/Software Engineering 3/assignment/bin/bootstrap.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry externalArchive=&quot;C:/Users/shaha/OneDrive - Technological University Dublin/computer science/DT228-3 year3 semester1/Software Engineering 3/assignment/bin/tomcat-juli.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;runtimeClasspathEntry externalArchive=&quot;C:/Program Files/IBM/SDP/jdk/lib/tools.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
+<stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="start"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dcatalina.base=&quot;C:\Users\shaha\OneDrive - Technological University Dublin\computer science\DT228-3 year3 semester1\Software Engineering 3\assignment\InventorySystem\java\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0&quot; -Dcatalina.home=&quot;C:\Users\shaha\OneDrive - Technological University Dublin\computer science\DT228-3 year3 semester1\Software Engineering 3\assignment&quot; -Dwtp.deploy=&quot;C:\Users\shaha\OneDrive - Technological University Dublin\computer science\DT228-3 year3 semester1\Software Engineering 3\assignment\InventorySystem\java\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps&quot; -Djava.endorsed.dirs=&quot;C:\Users\shaha\OneDrive - Technological University Dublin\computer science\DT228-3 year3 semester1\Software Engineering 3\assignment\endorsed&quot;"/>
+<stringAttribute key="server-id" value="Tomcat v7.0 Server at localhost"/>
+</launchConfiguration>

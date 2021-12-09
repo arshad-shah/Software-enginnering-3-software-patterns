@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="UMLModelConfigurationPage.TemplateConfiguration">
+		<section name="RootElementBlock">
+			<item value="Model" key="com.ibm.xtools.modeler.templates.blankUseCaseModel"/>
+		</section>
+	</section>
+	<section name="Uml2ExportWizard">
+		<item value="" key="WorkspacePath"/>
+		<item value="C:\Users\shaha\OneDrive\Desktop" key="DefaultDirectoryPath"/>
+		<item value="false" key="WorkspaceSelected"/>
+		<item value="true" key="RecreateIDs"/>
+		<item value="false" key="UML2ExportAppliedProfiles"/>
+		<list key="SourceSelections">
+			<item value="/InventoryManagmentSystem/Analysis Model.emx"/>
+			<item value="/InventoryManagmentSystem/Requirements Model.emx"/>
+		</list>
+	</section>
+	<section name="WorkingSetsConfigurationPage.TemplateConfiguration">
+	</section>
+</section>

@@ -1,0 +1,64 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ISO-8859-1" />
+    <title>Insert title here</title>
+  </head>
+  <body>
+    <div class="signUpContainer">
+      <h1>Inventory management System</h1>
+      <form class="signUpForm" action="FrontController" method="post">
+        <h1 class="formHeading">Edit Item</h1>
+        <input
+          class="input"
+          name="itemName"
+          size="18"
+          type="text"
+          placeholder="Item name"
+        />
+        <input
+          class="input"
+          name="itemDesc"
+          size="18"
+          type="text"
+          placeholder="Item Description"
+        />
+        <input
+          class="input"
+          name="itemPrice"
+          size="18"
+          type="number"
+          placeholder="Item Price"
+        />
+        <input
+          class="input"
+          name="itemQuantity"
+          size="18"
+          type="number"
+          placeholder="Item Quantity"
+        />
+        <input
+          class="input"
+          name="itemCategory"
+          size="18"
+          type="text"
+          placeholder="Item Category"
+        />
+        <input
+          class="input"
+          name="itemSupplier"
+          size="18"
+          type="text"
+          placeholder="Item Supplier"
+        />
+
+        <div class="loginFormButtons">
+          <input type="hidden" name="action" value="AddItem" />
+          <input class="button" type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

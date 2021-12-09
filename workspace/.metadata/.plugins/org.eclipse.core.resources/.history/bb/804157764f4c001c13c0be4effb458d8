@@ -1,0 +1,73 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ISO-8859-1" />
+    <title>Edit Item</title>
+  </head>
+  <body>
+    <c:set var="item" value="${sessionScope.item}" />
+    <div class="signUpContainer">
+      <h1>Inventory management System</h1>
+      <form class="signUpForm" action="FrontController" method="post">
+        <h1 class="formHeading">Edit Item</h1>
+        <input type="hidden" name="itemid" value="${item.itemId}" />
+        <input
+          class="input"
+          name="itemName"
+          size="18"
+          type="text"
+          value="${item.itemName}"
+          placeholder="Item name"
+        />
+        <input
+          class="input"
+          name="itemDesc"
+          size="18"
+          type="text"
+          value="${item.itemDesc}"
+          placeholder="Item Description"
+        />
+        <input
+          class="input"
+          name="itemPrice"
+          size="18"
+          type="number"
+          value="${item.itemPrice}"
+          placeholder="Item Price"
+        />
+        <input
+          class="input"
+          name="itemQuantity"
+          size="18"
+          type="number"
+          value="${item.itemQuantity}"
+          placeholder="Item Quantity"
+        />
+        <input
+          class="input"
+          name="itemCategory"
+          size="18"
+          type="text"
+          value="${item.itemCategory}"
+          placeholder="Item Category"
+        />
+        <input
+          class="input"
+          name="itemSupplier"
+          size="18"
+          type="text"
+          value="${item.itemSupplier}"
+          placeholder="Item Supplier"
+        />
+
+        <div class="loginFormButtons">
+          <input type="hidden" name="action" value="UpdateItem" />
+          <input class="button" type="submit" value="Update" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+@charset "ISO-8859-1";
+
+*{
+	font-family: 'Nunito', sans-serif;
+}
+.loginContainer{
+	width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.loginForm{
+	width:auto;
+	height:auto;
+	padding:24px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	align-items: stretch;
+	/* Add shadows to create the "card" effect */
+	box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.15);
+	transition: 0.3s;
+	border-radius: 10px;
+}
+
+.signUpContainer{
+	width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.signUpForm{
+	width:auto;
+	height:auto;
+	padding:24px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	align-items: stretch;
+	/* Add shadows to create the "card" effect */
+	box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.15);
+	transition: 0.3s;
+	border-radius: 10px;
+}
+
+.formHeading{
+	text-align:center;
+}
+
+.loginFormButtons{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.actionButtons{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+}
+.button{
+	border-radius: 5px;
+    background-color: #ffa600;
+    border: none;
+    color: #000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+}
+
+.button:hover {
+    border-radius: 5px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+.input{
+	padding: 12px 15px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid grey;
+  	border-radius: 4px;
+  	font-size: 18px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+th{
+  text-align: center;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #e5e5e5;
+}
+td {
+  text-align: left;
+  padding: 8px;
+  font-size: 14px;
+   font-weight: bold;
+}
+
+tr:nth-child(even) {background-color: #e5e5e5;}
+
+
+.inventoryHeader{
+	display:flex;
+	flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+.iconButtons{
+	display:flex;
+}

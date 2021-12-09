@@ -1,0 +1,14 @@
+127.0.0.1 - - [29/Nov/2021:20:51:10 +0000] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [29/Nov/2021:20:51:11 +0000] "GET /InventorySystemApp/login.jsp HTTP/1.1" 200 2525
+0:0:0:0:0:0:0:1 - - [29/Nov/2021:20:51:11 +0000] "GET /InventorySystemApp/style.css HTTP/1.1" 200 3322
+127.0.0.1 - - [29/Nov/2021:20:53:27 +0000] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [29/Nov/2021:20:53:28 +0000] "GET /InventorySystemApp/login.jsp HTTP/1.1" 200 2525
+0:0:0:0:0:0:0:1 - - [29/Nov/2021:20:55:05 +0000] "POST /InventorySystemApp/FrontController HTTP/1.1" 200 13808
+0:0:0:0:0:0:0:1 - - [29/Nov/2021:20:55:07 +0000] "POST /InventorySystemApp/FrontController HTTP/1.1" 200 2574
+0:0:0:0:0:0:0:1 - - [29/Nov/2021:20:55:10 +0000] "POST /InventorySystemApp/FrontController HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [29/Nov/2021:20:55:10 +0000] "GET /InventorySystemApp/login.jsp HTTP/1.1" 200 2525
+0:0:0:0:0:0:0:1 - - [29/Nov/2021:20:59:12 +0000] "POST /InventorySystemApp/FrontController HTTP/1.1" 200 13808
+0:0:0:0:0:0:0:1 - - [29/Nov/2021:20:59:17 +0000] "POST /InventorySystemApp/FrontController HTTP/1.1" 200 2574
+0:0:0:0:0:0:0:1 - - [29/Nov/2021:21:00:30 +0000] "POST /InventorySystemApp/FrontController HTTP/1.1" 200 14727
+0:0:0:0:0:0:0:1 - - [29/Nov/2021:21:03:43 +0000] "POST /InventorySystemApp/FrontController HTTP/1.1" 200 2574
+0:0:0:0:0:0:0:1 - - [29/Nov/2021:21:04:44 +0000] "POST /InventorySystemApp/FrontController HTTP/1.1" 200 2574

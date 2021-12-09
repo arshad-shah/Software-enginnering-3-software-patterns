@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="com.example.exceptions.CommandCreationException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.example.service.InventoryService"/>
+<fullyQualifiedTypeName name="com.example.business.Inventory"/>
+<fullyQualifiedTypeName name="com.example.business.InventoryManager"/>
+<fullyQualifiedTypeName name="com.example.dao.InventoryDao"/>
+<fullyQualifiedTypeName name="com.example.exceptions.DaoException"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="com.example.business.Item"/>
+</qualifiedTypeNameHistroy>

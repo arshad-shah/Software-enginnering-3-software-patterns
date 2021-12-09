@@ -1,0 +1,52 @@
+/**
+ * 
+ */
+package exceptions;
+
+/** 
+ * <!-- begin-UML-doc -->
+ * <!-- end-UML-doc -->
+ * @author shaha
+ * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ */
+public class commandCreationException {
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	private static long serialVersionUID;
+
+	/** 
+	 * @return the serialVersionUID
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public static long getSerialVersionUID() {
+		// begin-user-code
+		return serialVersionUID;
+		// end-user-code
+	}
+
+	/** 
+	 * @param serialVersionUID the serialVersionUID to set
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public static void setSerialVersionUID(long serialVersionUID) {
+		// begin-user-code
+		commandCreationException.serialVersionUID = serialVersionUID;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @param aMessage
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void CommandCreationException(String aMessage) {
+		// begin-user-code
+		// TODO Auto-generated method stub
+
+		// end-user-code
+	}
+}

@@ -1,0 +1,101 @@
+/**
+ * 
+ */
+package dao;
+
+import com.example.business.Inventory;
+import com.example.business.Item;
+
+/** 
+ * <!-- begin-UML-doc -->
+ * <!-- end-UML-doc -->
+ * @author shaha
+ * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ */
+public class inventoryDao extends Dao {
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @return
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public Inventory getInventory() {
+		// begin-user-code
+		// TODO Auto-generated method stub
+		return null;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @param item
+	 * @return
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public boolean add(Item item) {
+		// begin-user-code
+		// TODO Auto-generated method stub
+		return false;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @param itemId
+	 * @return
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public boolean delete(int itemId) {
+		// begin-user-code
+		// TODO Auto-generated method stub
+		return false;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @param itemId
+	 * @param itemName
+	 * @return
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public boolean updateName(int itemId, String itemName) {
+		// begin-user-code
+		// TODO Auto-generated method stub
+		return false;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @param itemId
+	 * @param itemDesc
+	 * @return
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public boolean updateDesc(int itemId, String itemDesc) {
+		// begin-user-code
+		// TODO Auto-generated method stub
+		return false;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @param itemId
+	 * @param itemPrice
+	 * @return
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public boolean updatePrice(int itemId, int itemPrice) {
+		// begin-user-code
+		// TODO Auto-generated method stub
+		return false;
+		// end-user-code
+	}
+}
